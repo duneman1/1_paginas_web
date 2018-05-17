@@ -1,0 +1,23 @@
+.h2 {
+    display: block;
+    margin: 0px;
+    font-size: 1.5rem;
+}
+.footer {
+    border-top: 2px solid coral;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+.vertebrados {
+    list-style: decimal;
+}
+
+/* dd, dt {
+    display: inline;
+} */
+
+.verde{
+    color: green;
+    background: greenyellow;
+    border: none;
+}
