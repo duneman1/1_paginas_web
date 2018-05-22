@@ -1,0 +1,14 @@
+header{
+    min-height: 20vh;
+    background-color: maroon;
+    color: aliceblue;
+}
+h1{
+    padding: 2rem;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    margin-top: 1rem;
+}
