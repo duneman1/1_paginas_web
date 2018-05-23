@@ -1,0 +1,14 @@
+{
+    "titulo": "El Hobbit",
+    "autor": 
+     {
+         "nombre": "J.R.R.",
+         "apellidos":"Tolkien",
+         "origen": 
+          {
+              "ciudad" : "BlombersTown",
+              "pais": "SudAfrica"
+          } 
+     },
+     "fecha": "1934-12-30T12:00:000" 
+}
