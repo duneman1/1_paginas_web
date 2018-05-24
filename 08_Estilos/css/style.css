@@ -1,0 +1,13 @@
+@import "extra.css";
+body {
+    background-color: aquamarine;
+}
+.caja {
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid;
+    border-radius: 5px;
+    border-color: red;
+    background-color: coral;
+}

@@ -1,0 +1,19 @@
+h3, .verde {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bold;
+}
+h2.verde{
+    color: lime;
+}
+.art1 h3 {
+    color: blue;
+}
+.verde {
+    color: green;
+    text-decoration: underline;
+    
+}
+.marron {
+    color: maroon;
+}
