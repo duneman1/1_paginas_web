@@ -1,0 +1,58 @@
+.boton {
+    width: 10rem;
+    border: 2px solid;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+div.boton:hover {
+    color: maroon;
+}
+
+section.parte1 p::first-letter {
+    font-size: 2rem;
+}
+
+section.parte1 p::first-line {
+    color: blue;
+}
+
+section.parte1 p::after {
+    
+    content: url(../img/fav_icon.png) open-quote;
+
+}
+
+section.parte1 p, blockquote {
+    quotes: '\00AB' '\00BB' '\201E' '\201C';
+}
+
+section.parte1 blockquote::before {
+    content: url(../img/fav_icon.png) open-quote;
+}
+
+section.parte1 blockquote::after {
+    content: close-quote;
+}
+
+section.parte1 p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+section.parte2 p:nth-of-type(1)::first-letter {
+    font-size: 2rem;
+}
+
+.capitalize {
+    font-size: 2rem;
+}
+
+/* section.parte2 p:nth-child(3) {
+    color:crimson;
+}
+
+section.parte2 p:nth-of-type(1) {
+    color:blueviolet;
+} */
+
