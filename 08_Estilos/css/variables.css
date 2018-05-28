@@ -1,0 +1,15 @@
+
+:root {
+    --color-primary: maroon;
+    --color-secundary: papayawhip;
+    --aire-basico: 1rem;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--color-secundary);
+}
+
+header h1 {
+    padding: calc(var(--aire-basico)*2);
+}

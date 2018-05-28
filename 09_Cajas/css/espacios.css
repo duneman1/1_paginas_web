@@ -1,0 +1,49 @@
+/* Reset */
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+
+body {
+    margin: 5%;
+}
+
+p {
+    /* width: calc(calc(100% - calc(2.3%))/4); */
+    width: calc(94%/4);
+    float: left;
+    padding: 1.5rem;
+    /* margin-right: 2%; */
+/*     border: 1px solid red;
+ */    
+}
+
+p:not(:last-child) {
+    margin-right: 2%;
+}
+
+/* Esta manera de quitarlo */
+/* p:last-child {
+    margin-right: 0%;
+} */
+
+/* p:first-child {
+    border-left: 1px solid red; 
+} */
+
+p:nth-child(odd) {
+    background-color: aqua;
+    border: 3px solid salmon;
+}
+
+p:nth-child(even) {
+    background-color: bisque;
+    border: 3px solid violet;
+}
