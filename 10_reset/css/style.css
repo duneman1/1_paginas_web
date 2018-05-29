@@ -33,13 +33,14 @@ nav {
     margin-bottom: 2rem;
 }
 
+
 li {
-    display: inline;
-    
+    display: inline;   
 }
+
 li a:hover  {
     font-size: 1.5rem;
-    color: red;
+    color: hsl(0, 100%, 50%);
 }
 p {
     margin-top: 0.5rem;
