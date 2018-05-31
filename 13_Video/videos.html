@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multimedia</title>
+    <style>
+        div.cam iframe {
+            width: 80%;
+            height: 50vh;
+        }
+        video {
+            /*width: 60%;*/
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Multimedia en la Web</h1>
+    </header>
+    <div>
+        <h2>Ejemplos de img</h2>
+        <img src="./assets/komodo.jpg" alt="Dragón...">
+    </div>
+    <div>
+        <h2>Ejemplo de object</h2>
+        <object data="./assets/Ghost_in_the_Shell_Opening.flv" type="application/vnd.adobe.flash.movie"></object>
+    </div>
+    <div>
+        <h2>Ejemplo de embed</h2>
+        <embed src="./assets/Ghost_in_the_Shell_Opening.flv" type="application/vnd.adobe.flash.movie">
+    </div>
+    <div class="cam">
+        <h2>Ejemplo de iframe</h2>
+        <iframe src="http://www.madrid.org/cs/Satellite?pagename=ComunidadMadrid/Home" frameborder="0"></iframe> 
+    </div>
+    <div>
+        <h2>Ejemplo de iframe de youtube</h2>
+        <iframe src="https://www.youtube.com/embed/uT3SBzmDxGk" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+    </div>
+    <div>
+        <h2>Iframe de video propio</h2>
+        <iframe src="./assets/2CELLOS - Thunderstruck [OFFICIAL VIDEO].mp4" frameborder="0"></iframe>
+    </div>
+    <div>
+        <h2>Video propio</h2>
+        <video controls width="600px">
+            <source src="./assets/2CELLOS - Thunderstruck [OFFICIAL VIDEO].mp4">   
+            <source src="./assets/2CELLOS - Thunderstruck [OFFICIAL VIDEO].webm">
+        </video>
+    </div>
+</body>
+</html>
+
